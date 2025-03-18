@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: kubernetes-repo
+  description: mi repo para probar kubernetes
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: kubernetes-repo
+    
+spec:
+  type: service
+  owner: ManuFernandez03
+  system: system1
+  lifecycle: experimental
