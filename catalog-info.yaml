@@ -5,7 +5,7 @@ metadata:
   description: mi repo para probar kubernetes
   annotations:
     backstage.io/techdocs-ref: dir:.
-    backstage.io/kubernetes-id: backstage
+    backstage.io/kubernetes-id: default
     
 spec:
   type: service
